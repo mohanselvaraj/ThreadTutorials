@@ -19,7 +19,7 @@ class MyRunnable implements Runnable{
 	public void run() {
 		try {
 			System.out.println("Runnable myline....");
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			System.out.println("Runnable takes 3 secs myline....");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
